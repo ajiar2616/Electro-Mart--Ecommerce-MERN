@@ -1,76 +1,97 @@
 # Electro Mart (MERN E-commerce)
-Is a MERN stack E-commerce web app specifically designed for mechanicals and electronicals e store.
 
+Electro Mart is a robust MERN stack-based e-commerce web application tailored for mechanical and electronic product stores.
+
+---
 
 ## Features
 
-### Authenticaton JWT, admin dashboard, user dashboard, profile view, categories & products search, add view update remove (products and categories), admin controls, private routing,
+- **Authentication:** Secure JWT-based login system
+- **User Roles:** Admin dashboard and user dashboard
+- **User Profile Management:** View and update profiles
+- **Product Management:** Search, add, view, update, and delete products and categories
+- **Admin Controls:** Manage users, products, and categories with dedicated admin privileges
+- **Private Routing:** Secure access to sensitive routes
 
-## Tech Stacks
+---
 
-**Client :** React JS, CSS3
+## Tech Stack
 
-**Server :** Node JS, Express JS
+#### Client:
+- React.js
+- CSS3
 
-**Database:->** MongoDB
+#### Server:
+- Node.js
+- Express.js
 
+#### Database:
+- MongoDB
+
+---
 
 ## Run Locally
 
-Clone the project
-
+#### Clone the Repository
+Clone the project repository to your local machine:
 ```bash
-https://github.com/NaveenMathramkott/MERN_Ecommecre.git
+git clone https://github.com/NaveenMathramkott/MERN_Ecommecre.git
 ```
 
+## Set Up Environment Variables
+Create a `.env` file in both the `server` and `client` directories and add the following configurations:
 
-
-#### Add the following to the .env file
-
-server :
+#### Server (`/server/.env`)
 ```bash
-PORT = -------
-DEV_MODE =development
-MONGO_URL = ----------
-JWT_SECRET_KEY = ---------
+PORT=your_server_port
+DEV_MODE=development
+MONGO_URL=your_mongo_connection_string
+JWT_SECRET_KEY=your_jwt_secret_key
 ```
 
-client :
+#### Client (`/client/.env`)
 ```bash
-REACT_APP_BASE_URL = API_url
-```
-#### Go to the project directory
-```bash
-  cd MERN_Ecommecre
+REACT_APP_BASE_URL=your_api_base_url
 ```
 
-Install dependencies
-
+## Navigate to the Project Directory
 ```bash
-  cd server
-  npm install
+cd MERN_Ecommecre
 ```
 
+## Install Dependencies
+
+#### Server Dependencies
 ```bash
-  cd client
-  npm install
+cd server
+npm install
 ```
 
-Start the server
-
+#### Client Dependencies
 ```bash
-  cd server
-  npm run start
+cd client
+npm install
 ```
 
-Start the Client
+## Start the Application
 
+#### Start the Server
 ```bash
-  cd frontend
-  npm start
+cd server
+npm run start
 ```
 
+#### Start the Client
+```bash
+cd client
+npm start
+```
+
+---
 
 
-## Start the app 
-"# Electronic-Mart---Ecommerce-MERN-" 
+## Access the Application
+Once both the server and client are running:
+
+- Open your browser and navigate to `http://localhost:3000` to access the client application.
+- The server will run on `http://localhost:<PORT>` based on the environment configuration.
