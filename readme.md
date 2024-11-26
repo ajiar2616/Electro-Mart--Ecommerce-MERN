@@ -35,7 +35,7 @@ Electro Mart is a robust MERN stack-based e-commerce web application tailored fo
 #### Clone the Repository
 Clone the project repository to your local machine:
 ```bash
-git clone https://github.com/NaveenMathramkott/MERN_Ecommecre.git
+https://github.com/ajiar2616/Electro-Mart--Ecommerce-MERN.git
 ```
 
 ## Set Up Environment Variables
